@@ -1,0 +1,216 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="renderer" content="webkit">
+<title></title>
+<link rel="stylesheet" href="<?php echo (ADMIN_CSS_URL); ?>pintuer.css">
+<link rel="stylesheet" href="<?php echo (ADMIN_CSS_URL); ?>admin.css">
+<link rel="stylesheet" href="<?php echo (ADMIN_CSS_URL); ?>jquery-ui.min.css">
+<link rel="stylesheet" href="<?php echo (ADMIN_LAYUI_URL); ?>css/layui.css">
+<link rel="stylesheet" href="<?php echo (ADMIN_CSS_URL); ?>font-awesome.min.css">
+<script src="<?php echo (ADMIN_JS_URL); ?>jquery.js"></script>
+<script src="<?php echo (ADMIN_JS_URL); ?>jquery-ui.min.js"></script>
+<script src="<?php echo (ADMIN_JS_URL); ?>pintuer.js"></script>
+<style type="text/css">
+	.dialogtable{border-collapse: collapse; width: 100%;padding-top: 12px;}
+	.dialogtable th{background-color: #E8E8E8;}
+	.dialogtable th,
+	.dialogtable td{border: solid 1px #ccc; padding: 8px;valign:middle;}
+	.button.border-green{ color:#22CC77;}
+	.pagelist span.current{background: #22CC77}
+	.level li{float:left;}
+	.bread{}
+</style>
+</head>
+<body>
+<form method="post" action="/StudentUnion/index.php/Admin/User/listUser" id="listform">
+  <div class="panel admin-panel">
+    <!-- <div class="panel-head">
+	    <strong class="icon-reorder"> 内容列表</strong>
+	</div> -->
+    <div class="padding border-bottom">
+      <ul class="search" style="padding-left:10px;">
+        <li>
+        <a class="layui-btn layui-btn-primary" href="/StudentUnion/index.php/Admin/User/add"><i class="layui-icon">&#xe654;</i>  添加成员</a> </li>
+        <li style="margin-left: 500px">
+          <input type="text" placeholder="请输入用户手机号" name="searchValue" class="input" style="width:250px; line-height:17px;display:inline-block" />
+          <a class="layui-btn layui-btn" style="cursor:pointer" onclick="$('#listform').submit()"><i class="layui-icon">&#xe615;</i>  搜索</a>	
+      </ul>
+    </div>
+    <table class="table table-hover text-center">
+      <tr>
+        <th width="8%" style="text-align:left; padding-left:20px;">ID</th>
+        <th width="8%">学号</th>
+        <th width="10%">姓名</th>
+        <th width="14%">部门</th>
+        <th width="5%">班级</th>
+        <th width="10%">性别</th>
+        <th width="10%">电话</th>
+      </tr>
+      <?php if(empty($data)): ?>
+      		<tr>
+      			<td></td>
+      			<td></td>
+      			<td></td>
+      			<td>
+      				<div style="padding:20px"><i class="layui-icon" style="font-size: 30px; color: #22CC77;">&#xe650;</i>空空如也~</div>
+      			</td>
+      		</tr>
+      <?php endif; ?>
+    <?php foreach ($data as $k => $v): ?>
+        <tr>
+          <td style="text-align:left; padding-left:20px;"><input type="checkbox" name="user_id[]" value="<?php echo $v['user_id']; ?>" /><?php echo $v['id']; ?></td>
+          <td><?php echo $v['studentnum']; ?></td>
+          <td><?php echo $v['name']; ?></td>
+          <td><?php echo $v['department']; ?></td>
+          <td><?php echo $v['class']; ?></td>
+          <td><?php echo $v['sex']; ?></td>
+          <td><?php echo $v['phone']; ?></td>
+          <td>
+          <a class="layui-btn layui-btn-primary layui-btn-mini" style="cursor:pointer" onclick="showDialog(<?php echo $v['id']; ?>)"><i class="layui-icon">&#xe615;</i>　查　看</a>
+          <a class="layui-btn layui-btn layui-btn-mini" href="/StudentUnion/index.php/Admin/User/edit/user_id/<?php echo $v['id']; ?>"><i class="layui-icon">&#xe642;</i>　修　改</a> 
+          <a class="layui-btn layui-btn-danger layui-btn-mini" style="cursor:pointer" onclick="del(<?php echo $v['id']; ?>)"> <i class="layui-icon">&#xe640;</i>　删　除</a></br>
+         
+		  </td>
+          <td colspan="0">
+          	<!-- 详情页面 -->
+        	<div id="dialog<?php echo $v['id']; ?>" style="display:none;" title="详情信息">
+    		<table class="dialogtable" cellspacing="0" cellpadding="0">
+    			<!--<tr>
+	    			<td valign="middle">头像：</td>
+	    			<td><?php showImage($v['user_img'],120,80); ?></td>
+	    		</tr>-->
+	    		<tr>
+	    			<td>微信：</td>
+	    			<td><?php echo $v['weixin']; ?></td>
+	    		</tr>
+	    		<tr>
+	    			<td>qq：</td>
+	    			<td><?php echo $v['qq']; ?></td>
+	    		</tr>
+	    		<tr>
+	    			<td>邮箱：</td>
+	    			<td><?php echo $v['email']; ?></td>
+	    		</tr>
+	    		<tr>
+	    			<td>政治面貌：</td>
+	    			<td><?php echo $v['political']; ?></td>
+	    		</tr>
+	    		<tr>
+	    			<td>现在学生会职位：</td>
+	    			<td><?php echo $v['nowposition']; ?></td>
+	    		</tr>
+	    		<tr>
+	    			<td>曾任学生会职位：</td>
+	    			<td><?php echo $v['oldposition']; ?></td>
+	    		</tr>
+	    		<tr>
+	    			<td>曾获荣誉：</td>
+	    			<td><?php echo $v['honour']; ?></td>
+	    		</tr>
+	    		<tr>
+	    			<td>意见和建议：</td>
+	    			<td><?php echo $v['opinion']; ?></td>
+	    		</tr>
+	    		<tr>
+	    			<td>工作情况：</td>
+	    			<td><?php echo $v['work']; ?></td>
+	    		</tr>
+	    		<!--<tr>
+	    			<td>入库时间：</td>
+	    			<td><?php echo $v['inserttime']; ?></td>
+	    		</tr>
+	    		<tr>
+	    			<td>修改时间：</td>
+	    			<td><?php echo $v['updatetime']; ?></td>
+	    		</tr>-->
+	    	
+    		</table>
+       		</div>
+          </td>
+        </tr>
+        
+    <?php endforeach; ?>
+      <tr>
+        <td style="text-align:left; padding:19px 0;padding-left:20px;"><input type="checkbox" id="checkall"/>
+          全选 </td>
+        <td colspan="7" style="text-align:left;padding-left:20px;"><a href="javascript:void(0)" class="button border-red icon-trash-o" style="padding:5px 15px;" onclick="DelSelect()"> 删除</a>
+      </tr>
+      <tr>
+      	<td colspan="8">
+      	<div class="pagelist">
+      		<?php echo ($page); ?>
+      		</div>
+      	</td>
+      </tr>
+    </table>
+</form>
+<script src="<?php echo (ADMIN_LAYUI_URL); ?>lay/dest/layui.all.js"></script>
+<script type="text/javascript">
+
+//详情列表框
+function showDialog(id) {
+	layer.open({
+        type: 1,
+        area: ['450px', '360px'],
+        content: $("#dialog"+id),
+        shade:0,
+        skin:'layui-layer-lan',
+        offset: ['10px', '200px'],
+        cancel:function(index, layero){
+          $("#dialog"+id).css('display','none');
+          layer.close(index);
+        }
+    });	
+  };
+//单个删除
+function del(user_id){
+	if(confirm("您确定要删除吗?")){
+		window.location="/StudentUnion/index.php/Admin/User/delete/user_id/"+user_id;
+	}
+}
+
+//全选
+$("#checkall").click(function(){ 
+  $("input[name='user_id[]']").each(function(){
+	  if (this.checked) {
+		  this.checked = false;
+	  }
+	  else {
+		  this.checked = true;
+	  }
+  });
+})
+
+//批量删除
+function DelSelect(){
+	var Checkbox=false;
+	var user_id = new Array();
+	 $("input[name='user_id[]']").each(function(){
+	  if (this.checked==true) {		
+		Checkbox=true;	
+	  }
+	});
+	if (Checkbox){
+		var t=confirm("您确认要删除选中的内容吗？");
+		if (t==false) return false;
+		var i = 0;
+		$("input[name='user_id[]']:checked").each(function(){
+			user_id[i] = this.value;
+			i++;
+		});
+		window.location="/StudentUnion/index.php/Admin/User/delete/user_id/"+user_id;	
+		//$("#listform").submit();		
+	}
+	else{
+		alert("请选择您要删除的内容!");
+		return false;
+	}
+}
+
+</script>
+</body>
+</html>

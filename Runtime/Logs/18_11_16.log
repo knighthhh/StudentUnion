@@ -1,0 +1,1357 @@
+[ 2018-11-16T00:00:57+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.013275s ]
+ERR: 1146:Table 'studentunion.user_info' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user_info`
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` LIMIT 1   [ RunTime:0.001365s ]
+ERR: 1146:Table 'studentunion.user_info' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `user_info` LIMIT 1  
+SQL: SELECT * FROM `user_info` LIMIT 0,5   [ RunTime:0.001323s ]
+ERR: 1146:Table 'studentunion.user_info' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `user_info` LIMIT 0,5  
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 63 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.026076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000208s ]
+
+[ 2018-11-16T00:01:17+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001410s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000088s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000201s ]
+
+[ 2018-11-16T00:01:17+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000092s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000289s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000212s ]
+
+[ 2018-11-16T00:01:19+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.013065s ]
+ERR: 1146:Table 'studentunion.user_info' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user_info`
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` LIMIT 1   [ RunTime:0.001329s ]
+ERR: 1146:Table 'studentunion.user_info' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `user_info` LIMIT 1  
+SQL: SELECT * FROM `user_info` LIMIT 0,5   [ RunTime:0.001316s ]
+ERR: 1146:Table 'studentunion.user_info' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `user_info` LIMIT 0,5  
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000438s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000676s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 63 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.028702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000246s ]
+
+[ 2018-11-16T00:03:01+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.033253s ]
+ERR: Think\Model:search方法不存在！
+
+[ 2018-11-16T00:03:39+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001420s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000117s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000601s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.028871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000872s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000211s ]
+
+[ 2018-11-16T00:03:40+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001295s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000136s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000127s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000478s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001093s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2018-11-16T00:03:42+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.016243s ]
+ERR: Think\Model:search方法不存在！
+
+[ 2018-11-16T00:04:22+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.019809s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.000653s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.000996s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000467s ]
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_phone E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 66 行.
+NOTIC: [8] Undefined index: user_name E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 67 行.
+NOTIC: [8] Undefined index: user_city E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 68 行.
+NOTIC: [8] Undefined index: user_sex E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 69 行.
+NOTIC: [8] Undefined index: user_time E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 70 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 72 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 73 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 74 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 76 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 77 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 78 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 83 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 87 行.
+NOTIC: [8] Undefined index: user_name E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 91 行.
+NOTIC: [8] Undefined index: user_nickname E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 95 行.
+NOTIC: [8] Undefined index: user_age E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 99 行.
+NOTIC: [8] Undefined index: user_phone E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 103 行.
+NOTIC: [8] Undefined index: user_password E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 107 行.
+NOTIC: [8] Undefined index: user_sex E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 111 行.
+NOTIC: [8] Undefined index: user_city E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 115 行.
+NOTIC: [8] Undefined index: user_date E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 119 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 123 行.
+NOTIC: [8] Undefined index: papers_num E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 127 行.
+NOTIC: [8] Undefined index: nation E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 131 行.
+NOTIC: [8] Undefined index: profession E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 135 行.
+NOTIC: [8] Undefined index: education E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 139 行.
+NOTIC: [8] Undefined index: marriage E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 143 行.
+NOTIC: [8] Undefined index: user_qq E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 147 行.
+NOTIC: [8] Undefined index: user_weixin E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 151 行.
+NOTIC: [8] Undefined index: user_time E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 155 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2018-11-16T00:10:06+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.007534s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.000370s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.000489s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: deparment E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 68 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 72 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 73 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 74 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 76 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 77 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 78 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 83 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 87 行.
+NOTIC: [8] Undefined index: user_name E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 91 行.
+NOTIC: [8] Undefined index: user_nickname E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 95 行.
+NOTIC: [8] Undefined index: user_age E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 99 行.
+NOTIC: [8] Undefined index: user_phone E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 103 行.
+NOTIC: [8] Undefined index: user_password E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 107 行.
+NOTIC: [8] Undefined index: user_sex E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 111 行.
+NOTIC: [8] Undefined index: user_city E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 115 行.
+NOTIC: [8] Undefined index: user_date E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 119 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 123 行.
+NOTIC: [8] Undefined index: papers_num E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 127 行.
+NOTIC: [8] Undefined index: nation E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 131 行.
+NOTIC: [8] Undefined index: profession E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 135 行.
+NOTIC: [8] Undefined index: education E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 139 行.
+NOTIC: [8] Undefined index: marriage E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 143 行.
+NOTIC: [8] Undefined index: user_qq E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 147 行.
+NOTIC: [8] Undefined index: user_weixin E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 151 行.
+NOTIC: [8] Undefined index: user_time E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 155 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2018-11-16T00:11:35+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.012269s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.000325s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.000481s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: deparment E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 68 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 72 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 73 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 74 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 76 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 77 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 78 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 83 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 87 行.
+NOTIC: [8] Undefined index: user_name E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 91 行.
+NOTIC: [8] Undefined index: user_nickname E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 95 行.
+NOTIC: [8] Undefined index: user_age E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 99 行.
+NOTIC: [8] Undefined index: user_phone E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 103 行.
+NOTIC: [8] Undefined index: user_password E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 107 行.
+NOTIC: [8] Undefined index: user_sex E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 111 行.
+NOTIC: [8] Undefined index: user_city E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 115 行.
+NOTIC: [8] Undefined index: user_date E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 119 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 123 行.
+NOTIC: [8] Undefined index: papers_num E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 127 行.
+NOTIC: [8] Undefined index: nation E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 131 行.
+NOTIC: [8] Undefined index: profession E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 135 行.
+NOTIC: [8] Undefined index: education E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 139 行.
+NOTIC: [8] Undefined index: marriage E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 143 行.
+NOTIC: [8] Undefined index: user_qq E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 147 行.
+NOTIC: [8] Undefined index: user_weixin E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 151 行.
+NOTIC: [8] Undefined index: user_time E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 155 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000104s ]
+
+[ 2018-11-16T00:12:28+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.007763s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.000333s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.000475s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 72 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 73 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 74 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 76 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 77 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 78 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 83 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 87 行.
+NOTIC: [8] Undefined index: user_name E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 91 行.
+NOTIC: [8] Undefined index: user_nickname E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 95 行.
+NOTIC: [8] Undefined index: user_age E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 99 行.
+NOTIC: [8] Undefined index: user_phone E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 103 行.
+NOTIC: [8] Undefined index: user_password E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 107 行.
+NOTIC: [8] Undefined index: user_sex E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 111 行.
+NOTIC: [8] Undefined index: user_city E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 115 行.
+NOTIC: [8] Undefined index: user_date E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 119 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 123 行.
+NOTIC: [8] Undefined index: papers_num E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 127 行.
+NOTIC: [8] Undefined index: nation E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 131 行.
+NOTIC: [8] Undefined index: profession E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 135 行.
+NOTIC: [8] Undefined index: education E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 139 行.
+NOTIC: [8] Undefined index: marriage E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 143 行.
+NOTIC: [8] Undefined index: user_qq E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 147 行.
+NOTIC: [8] Undefined index: user_weixin E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 151 行.
+NOTIC: [8] Undefined index: user_time E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 155 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2018-11-16T00:13:04+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.007301s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.000328s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.000486s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 73 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 74 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 75 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 77 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 78 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 79 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 84 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 88 行.
+NOTIC: [8] Undefined index: user_name E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 92 行.
+NOTIC: [8] Undefined index: user_nickname E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 96 行.
+NOTIC: [8] Undefined index: user_age E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 100 行.
+NOTIC: [8] Undefined index: user_phone E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 104 行.
+NOTIC: [8] Undefined index: user_password E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 108 行.
+NOTIC: [8] Undefined index: user_sex E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 112 行.
+NOTIC: [8] Undefined index: user_city E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 116 行.
+NOTIC: [8] Undefined index: user_date E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 120 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 124 行.
+NOTIC: [8] Undefined index: papers_num E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 128 行.
+NOTIC: [8] Undefined index: nation E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 132 行.
+NOTIC: [8] Undefined index: profession E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 136 行.
+NOTIC: [8] Undefined index: education E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 140 行.
+NOTIC: [8] Undefined index: marriage E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 144 行.
+NOTIC: [8] Undefined index: user_qq E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 148 行.
+NOTIC: [8] Undefined index: user_weixin E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 152 行.
+NOTIC: [8] Undefined index: user_time E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 156 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2018-11-16T00:13:11+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/edit/user_id/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.007694s ]
+ERR: 1146:Table 'studentunion.user_info' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user_info`
+SQL: SELECT * FROM `user_info` WHERE ( `id` = '' ) LIMIT 1   [ RunTime:0.000678s ]
+ERR: 1146:Table 'studentunion.user_info' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `user_info` WHERE ( `id` = '' ) LIMIT 1  
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Undefined index: user_name E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 54 行.
+NOTIC: [8] Undefined index: user_nickname E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 63 行.
+NOTIC: [8] Undefined index: user_age E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 84 行.
+NOTIC: [8] Undefined index: user_phone E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 92 行.
+NOTIC: [8] Undefined index: user_password E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 100 行.
+NOTIC: [8] Undefined index: user_sex E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 108 行.
+NOTIC: [8] Undefined index: user_sex E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 109 行.
+NOTIC: [8] Undefined index: user_date E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 118 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 127 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 128 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 129 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 130 行.
+NOTIC: [8] Undefined index: papers_num E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 140 行.
+NOTIC: [8] Undefined index: nation E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 148 行.
+NOTIC: [8] Undefined index: profession E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 156 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 165 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 166 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 167 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 168 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 169 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 180 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 181 行.
+NOTIC: [8] Undefined index: user_qq E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 191 行.
+NOTIC: [8] Undefined index: user_weixin E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 199 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 207 行.
+NOTIC: [8] Undefined offset: 1 E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 245 行.
+NOTIC: [8] Undefined offset: 2 E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 246 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.072668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000125s ]
+
+[ 2018-11-16T00:13:12+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.008229s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.000474s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 73 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 74 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 75 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 77 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 78 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 79 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 84 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 88 行.
+NOTIC: [8] Undefined index: user_name E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 92 行.
+NOTIC: [8] Undefined index: user_nickname E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 96 行.
+NOTIC: [8] Undefined index: user_age E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 100 行.
+NOTIC: [8] Undefined index: user_phone E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 104 行.
+NOTIC: [8] Undefined index: user_password E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 108 行.
+NOTIC: [8] Undefined index: user_sex E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 112 行.
+NOTIC: [8] Undefined index: user_city E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 116 行.
+NOTIC: [8] Undefined index: user_date E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 120 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 124 行.
+NOTIC: [8] Undefined index: papers_num E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 128 行.
+NOTIC: [8] Undefined index: nation E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 132 行.
+NOTIC: [8] Undefined index: profession E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 136 行.
+NOTIC: [8] Undefined index: education E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 140 行.
+NOTIC: [8] Undefined index: marriage E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 144 行.
+NOTIC: [8] Undefined index: user_qq E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 148 行.
+NOTIC: [8] Undefined index: user_weixin E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 152 行.
+NOTIC: [8] Undefined index: user_time E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 156 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+
+[ 2018-11-16T00:13:24+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.007328s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.000359s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.000496s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 73 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 74 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 75 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 77 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 78 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 79 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 84 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 88 行.
+NOTIC: [8] Undefined index: user_name E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 92 行.
+NOTIC: [8] Undefined index: user_nickname E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 96 行.
+NOTIC: [8] Undefined index: user_age E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 100 行.
+NOTIC: [8] Undefined index: user_phone E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 104 行.
+NOTIC: [8] Undefined index: user_password E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 108 行.
+NOTIC: [8] Undefined index: user_sex E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 112 行.
+NOTIC: [8] Undefined index: user_city E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 116 行.
+NOTIC: [8] Undefined index: user_date E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 120 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 124 行.
+NOTIC: [8] Undefined index: papers_num E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 128 行.
+NOTIC: [8] Undefined index: nation E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 132 行.
+NOTIC: [8] Undefined index: profession E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 136 行.
+NOTIC: [8] Undefined index: education E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 140 行.
+NOTIC: [8] Undefined index: marriage E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 144 行.
+NOTIC: [8] Undefined index: user_qq E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 148 行.
+NOTIC: [8] Undefined index: user_weixin E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 152 行.
+NOTIC: [8] Undefined index: user_time E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 156 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000111s ]
+
+[ 2018-11-16T00:13:38+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000038s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.007140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.000388s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.000515s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 73 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 74 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 75 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 77 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 78 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 79 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 84 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 88 行.
+NOTIC: [8] Undefined index: user_name E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 92 行.
+NOTIC: [8] Undefined index: user_nickname E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 96 行.
+NOTIC: [8] Undefined index: user_age E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 100 行.
+NOTIC: [8] Undefined index: user_phone E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 104 行.
+NOTIC: [8] Undefined index: user_password E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 108 行.
+NOTIC: [8] Undefined index: user_sex E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 112 行.
+NOTIC: [8] Undefined index: user_city E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 116 行.
+NOTIC: [8] Undefined index: user_date E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 120 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 124 行.
+NOTIC: [8] Undefined index: papers_num E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 128 行.
+NOTIC: [8] Undefined index: nation E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 132 行.
+NOTIC: [8] Undefined index: profession E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 136 行.
+NOTIC: [8] Undefined index: education E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 140 行.
+NOTIC: [8] Undefined index: marriage E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 144 行.
+NOTIC: [8] Undefined index: user_qq E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 148 行.
+NOTIC: [8] Undefined index: user_weixin E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 152 行.
+NOTIC: [8] Undefined index: user_time E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 156 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2018-11-16T00:14:04+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.000320s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.000465s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 73 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 74 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 75 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 77 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 78 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 79 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 84 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 88 行.
+NOTIC: [8] Undefined index: user_name E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 92 行.
+NOTIC: [8] Undefined index: user_nickname E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 96 行.
+NOTIC: [8] Undefined index: user_age E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 100 行.
+NOTIC: [8] Undefined index: user_phone E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 104 行.
+NOTIC: [8] Undefined index: user_password E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 108 行.
+NOTIC: [8] Undefined index: user_sex E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 112 行.
+NOTIC: [8] Undefined index: user_city E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 116 行.
+NOTIC: [8] Undefined index: user_date E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 120 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 124 行.
+NOTIC: [8] Undefined index: papers_num E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 128 行.
+NOTIC: [8] Undefined index: nation E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 132 行.
+NOTIC: [8] Undefined index: profession E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 136 行.
+NOTIC: [8] Undefined index: education E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 140 行.
+NOTIC: [8] Undefined index: marriage E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 144 行.
+NOTIC: [8] Undefined index: user_qq E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 148 行.
+NOTIC: [8] Undefined index: user_weixin E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 152 行.
+NOTIC: [8] Undefined index: user_time E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 156 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2018-11-16T00:14:32+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.007845s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.000317s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.000536s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 73 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 74 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 75 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 80 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 84 行.
+NOTIC: [8] Undefined index: user_name E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 88 行.
+NOTIC: [8] Undefined index: user_nickname E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 92 行.
+NOTIC: [8] Undefined index: user_age E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 96 行.
+NOTIC: [8] Undefined index: user_phone E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 100 行.
+NOTIC: [8] Undefined index: user_password E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 104 行.
+NOTIC: [8] Undefined index: user_sex E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 108 行.
+NOTIC: [8] Undefined index: user_city E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 112 行.
+NOTIC: [8] Undefined index: user_date E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 116 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 120 行.
+NOTIC: [8] Undefined index: papers_num E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 124 行.
+NOTIC: [8] Undefined index: nation E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 128 行.
+NOTIC: [8] Undefined index: profession E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 132 行.
+NOTIC: [8] Undefined index: education E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 136 行.
+NOTIC: [8] Undefined index: marriage E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 140 行.
+NOTIC: [8] Undefined index: user_qq E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 144 行.
+NOTIC: [8] Undefined index: user_weixin E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 148 行.
+NOTIC: [8] Undefined index: user_time E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 152 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2018-11-16T00:21:18+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.029253s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.000314s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.000500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 73 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 74 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 75 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 80 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 84 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000111s ]
+
+[ 2018-11-16T00:21:42+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.006397s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.000316s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.000477s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 80 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 84 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000122s ]
+
+[ 2018-11-16T00:22:41+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.021806s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.000327s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.000476s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 80 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 84 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2018-11-16T00:22:41+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000050s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000608s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.026287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000166s ]
+
+[ 2018-11-16T00:22:41+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000046s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000219s ]
+
+[ 2018-11-16T00:22:42+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2018-11-16T00:22:42+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000048s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2018-11-16T00:22:44+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.016315s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.000355s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.000680s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 80 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 84 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2018-11-16T00:23:10+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.006910s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.000334s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.000489s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 84 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2018-11-16T00:23:22+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2018-11-16T00:23:22+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000044s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2018-11-16T00:23:24+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.006189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.000332s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.000477s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 84 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2018-11-16T00:23:46+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.007520s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.000312s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.000472s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 84 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2018-11-16T00:23:58+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.006365s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.000536s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 84 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2018-11-16T00:24:24+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/edit/user_id/1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.006964s ]
+ERR: 1146:Table 'studentunion.user_info' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user_info`
+SQL: SELECT * FROM `user_info` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000674s ]
+ERR: 1146:Table 'studentunion.user_info' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `user_info` WHERE ( `id` = '1' ) LIMIT 1  
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+NOTIC: [8] Undefined index: user_name E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 54 行.
+NOTIC: [8] Undefined index: user_nickname E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 63 行.
+NOTIC: [8] Undefined index: user_age E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 84 行.
+NOTIC: [8] Undefined index: user_phone E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 92 行.
+NOTIC: [8] Undefined index: user_password E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 100 行.
+NOTIC: [8] Undefined index: user_sex E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 108 行.
+NOTIC: [8] Undefined index: user_sex E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 109 行.
+NOTIC: [8] Undefined index: user_date E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 118 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 127 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 128 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 129 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 130 行.
+NOTIC: [8] Undefined index: papers_num E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 140 行.
+NOTIC: [8] Undefined index: nation E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 148 行.
+NOTIC: [8] Undefined index: profession E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 156 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 165 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 166 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 167 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 168 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 169 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 180 行.
+NOTIC: [8] Undefined index: papers_type E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 181 行.
+NOTIC: [8] Undefined index: user_qq E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 191 行.
+NOTIC: [8] Undefined index: user_weixin E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 199 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 207 行.
+NOTIC: [8] Undefined offset: 1 E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 245 行.
+NOTIC: [8] Undefined offset: 2 E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\a9363d34b17d2a9f9ce2f5824e334129.php 第 246 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000121s ]
+
+[ 2018-11-16T00:24:36+08:00 ] 127.0.0.1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.007732s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.000324s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.000613s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined index: user_id E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 65 行.
+NOTIC: [8] Undefined index: user_img E:\Program Files\phpstudy\install\PHPTutorial\WWW\StudentUnion\Runtime\Cache\Admin\bf4f76302f652b7ce1441ef37543a612.php 第 84 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
