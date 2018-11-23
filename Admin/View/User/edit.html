@@ -44,60 +44,42 @@
       </div>
     <div class="body-content">
     <form method="post" class="form-x" action="__SELF__" name="fileUploadForm" enctype="multipart/form-data">
-    <input type="hidden" name="user_id" value="<?php echo I('get.user_id'); ?>">
-    <div class="div_tab" style="display:block;">  
+    <input type="hidden" name="id" value="<?php echo I('get.id'); ?>">
+    <div class="div_tab" style="display:block;">
       <div class="form-group">
         <div class="label">
-          <label>用户姓名：</label>
+          <label>姓名：</label>
         </div>
         <div class="field">
-          <input type="text" class="input w50" value="<?php echo $data['user_name']; ?>" name="user_name" data-validate="required:请输入标题" />
+          <input type="text" class="input w50" value="<?php echo $data['name']; ?>" name="name" data-validate="required:请输入姓名" />
           <span class="tips">*</span>
         </div>
       </div>
       <div class="form-group">
         <div class="label">
-          <label>用户昵称：</label>
+          <label>学号：</label>
         </div>
         <div class="field">
-          <input type="text" class="input w50" value="<?php echo $data['user_nickname']; ?>" name="user_nickname" data-validate="required:请输入标题" />
+          <input type="text" class="input w50" value="<?php echo $data['studentnum']; ?>" name="studentnum" data-validate="required:请输入学号" />
           <span class="tips">*</span>
         </div>
       </div>
       <div class="form-group">
         <div class="label">
-          <label>所在城市：</label>
-        </div>
-        <div id="city" class="field">
-            <select name="prov" class="prov"></select>   
-            <select name="city" class="city" disabled="disabled"></select>  
-            <select name="dist" class="dist" disabled="disabled"></select>
-            <span class="tips">*</span>
-        </div>
-      </div>
-      <div class="clear"></div>
-      <div class="form-group">
-        <div class="label">
-          <label>年龄：</label>
+          <label>班级：</label>
         </div>
         <div class="field">
-          <input type="text" class="input w50" value="<?php echo $data['user_age']; ?>" name="user_age" />
+          <input type="text" class="input w50" value="<?php echo $data['class']; ?>" name="class" data-validate="required:请输入班级" />
+          <span class="tips">*</span>
         </div>
       </div>
       <div class="form-group">
         <div class="label">
-          <label>用户电话：</label>
+          <label>部门：</label>
         </div>
         <div class="field">
-          <input type="text" class="input w50" value="<?php echo $data['user_phone']; ?>" name="user_phone" />
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="label">
-          <label>用户密码：</label>
-        </div>
-        <div class="field">
-          <input type="text" class="input w50" value="<?php echo $data['user_password']; ?>" name="user_password" />
+          <input type="text" class="input w50" value="<?php echo $data['department']; ?>" name="department" data-validate="required:请输入部门" />
+          <span class="tips">*</span>
         </div>
       </div>
       <div class="form-group">
@@ -105,113 +87,94 @@
           <label>性别：</label>
         </div>
         <div class="field">
-          <label><input <?php echo $data['user_sex']=='男'?'checked="checked"':null ?> name="user_sex" type="radio" value="男"/>男</label>
-          <label><input <?php echo $data['user_sex']=='女'?'checked="checked"':null ?> name="user_sex" type="radio" value="女"/>女</label>
+          <label><input <?php echo $data['sex']=='男'?'checked="checked"':null ?> name="sex" type="radio" value="男"/>男</label>
+          <label><input <?php echo $data['sex']=='女'?'checked="checked"':null ?> name="sex" type="radio" value="女"/>女</label>
           <span class="tips">*</span>
         </div>
       </div>
       <div class="form-group">
         <div class="label">
-          <label>出生日期：</label>
+          <label>电话：</label>
         </div>
         <div class="field">
-          <input type="text" id="user_date" class="input w50" value="<?php echo $data['user_date']; ?>" name="user_date" />
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="label">
-          <label>证件类型：</label>
-        </div>
-        <div class="field">
-          <select name="papers_type">
-            <option <?php echo $data['papers_type']=='身份证'?'selected="selected"':null ?> value="身份证">身份证</option>
-            <option <?php echo $data['papers_type']=='港澳通行证'?'selected="selected"':null ?> value="港澳通行证">港澳通行证</option>
-            <option <?php echo $data['papers_type']=='军人证'?'selected="selected"':null ?> value="军人证">军人证</option>
-            <option <?php echo $data['papers_type']=='学生证'?'selected="selected"':null ?> value="学生证">学生证</option>
-          </select>
+          <input type="text" class="input w50" value="<?php echo $data['phone']; ?>" name="phone" data-validate="required:请输入电话"/>
           <span class="tips">*</span>
         </div>
       </div>
-      <div class="form-group">
+       <div class="form-group">
         <div class="label">
-          <label>证件号码：</label>
+          <label>qq：</label>
         </div>
         <div class="field">
-          <input type="text" class="input w50" value="<?php echo $data['papers_num']; ?>" name="papers_num" />
+          <input type="text" class="input w50" value="<?php echo $data['qq']; ?>" name="qq" />
         </div>
       </div>
        <div class="form-group">
-        <div class="label">
-          <label>民族：</label>
-        </div>
-        <div class="field">
-          <input type="text" class="input w50" value="<?php echo $data['nation']; ?>" name="nation" />
-        </div>
-      </div>
-       <div class="form-group">
-        <div class="label">
-          <label>职业：</label>
-        </div>
-        <div class="field">
-          <input type="text" class="input w50" value="<?php echo $data['profession']; ?>" name="profession" />
-        </div>
-      </div>
-       <div class="form-group">
-        <div class="label">
-          <label>文化程度：</label>
-        </div>
-        <div class="field">
-          <select name="education">
-            <option <?php echo $data['papers_type']=='初中或以下'?'selected="selected"':null ?> value="初中或以下">初中或以下</option>
-            <option <?php echo $data['papers_type']=='高中'?'selected="selected"':null ?> value="高中">高中</option>
-            <option <?php echo $data['papers_type']=='本科'?'selected="selected"':null ?> selected="selected" value="本科">本科</option>
-            <option <?php echo $data['papers_type']=='硕士'?'selected="selected"':null ?> value="硕士">硕士</option>
-            <option <?php echo $data['papers_type']=='博士或以上'?'selected="selected"':null ?> value="博士或以上">博士或以上</option>
-          </select>
-          <span class="tips"></span>
-        </div>
-      </div>
-       <div class="form-group">
-        <div class="label">
-          <label>婚姻状况：</label>
-        </div>
-        <div class="field">
-          <select name="marriage">
-            <option <?php echo $data['papers_type']=='未婚'?'selected="selected"':null ?> value="未婚">未婚　</option>
-            <option <?php echo $data['papers_type']=='已婚'?'selected="selected"':null ?> value="已婚">已婚　</option>
-          </select>
-          <span class="tips"></span>        
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="label">
-          <label>QQ：</label>
-        </div>
-        <div class="field">
-          <input type="text" class="input w50" value="<?php echo $data['user_qq']; ?>" name="user_qq" />
-        </div>
-      </div>
-      <div class="form-group">
         <div class="label">
           <label>微信：</label>
         </div>
         <div class="field">
-          <input type="text" class="input w50" value="<?php echo $data['user_weixin']; ?>" name="user_weixin" />
+          <input type="text" class="input w50" value="<?php echo $data['weixin']; ?>" name="weixin" />
+        </div>
+      </div>
+       <div class="form-group">
+        <div class="label">
+          <label>邮箱：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="<?php echo $data['email']; ?>" name="email" />
         </div>
       </div>
       <div class="form-group">
         <div class="label">
-          <label>头像：</label>
+          <label>政治面貌：</label>
         </div>
-         <!-- 显示图片 -->
-        <span><?php showImage($data['user_img'],120,80); ?></span>
-        <div style="margin-left: 140px;margin-top: 10px" class="field">
-          <input type="file" id="fileUpload" name="user_img" class="input tips" style="display:none;width:25%; float:left;"  value=""  data-toggle="hover" data-place="right" data-image=""  />
-          <div id="filePath" style="float:left;line-height:40px;" ></div>
-          <input type="button" class="button bg-blue margin-left upload" value="+ 浏览上传"  style="float:left;">
-          <div class="tipss">图片格式：jpg，jpeg，gif，png</div>
+        <div class="field">
+          <input type="text" class="input w50" value="<?php echo $data['political']; ?>" name="political" />
         </div>
       </div>
+      <div class="form-group">
+        <div class="label">
+          <label>现在学生会职位：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="<?php echo $data['nowposition']; ?>" name="nowposition" />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>曾任学生会职位：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="<?php echo $data['oldposition']; ?>" name="oldposition" />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>曾获荣誉：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="<?php echo $data['honour']; ?>" name="honour" />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>对学生会的看法：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="<?php echo $data['opinion']; ?>" name="opinion" />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>工作情况：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="<?php echo $data['work']; ?>" name="work" />
+        </div>
+      </div>
+      </div>
+
       </div>
       <!-- 提交 -->
       <div class="form-group" style="margin-left: 200px;margin-top: 40px">

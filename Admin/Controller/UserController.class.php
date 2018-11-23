@@ -18,9 +18,10 @@ class UserController extends BaseController
 
 	public function add()
 	{
-		$model = D('user_info');
+		$model = D('Studentinfo');
 		if(IS_POST){
 			//dump(I('post.'));die;
+
 			if($info=$model->create(I('post.'))){
 				//dump($info);die;
 				if($model->add()){
@@ -36,8 +37,9 @@ class UserController extends BaseController
 
 	public function edit()
 	{
-		$user_id = I('get.user_id');
-		$model = D('user_info');
+		$id = I('get.id');
+		$model = D('Studentinfo');
+		print_r(I('post.'));
 		if (IS_POST) {
             if($info = $model->create(I('post.'),2)){
             	//dump($info);die;
@@ -50,10 +52,7 @@ class UserController extends BaseController
             $this->error($error);
             
         }
-		$data = $model->find($user_id);
-		$addrsess = explode(" ",$data['user_city']);
-        $data['user_city'] = $addrsess;
-        //dump($data['user_city']);die;
+		$data = $model->find($id);
 		$this->assign(array(
 			'data' => $data
 			));
@@ -62,9 +61,9 @@ class UserController extends BaseController
 
 	public function delete()
 	{
-		$user_id = I('get.user_id');
-		$model = D('user_info');
-		if(FALSE !== $model->delete($user_id)){
+		$id = I('get.id');
+		$model = D('Studentinfo');
+		if(FALSE !== $model->delete($id)){
 			$this->success('操作成功!', U('listUser'));
             exit;
 		}

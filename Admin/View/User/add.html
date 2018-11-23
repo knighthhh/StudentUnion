@@ -44,52 +44,41 @@
       </div>
     <div class="body-content">
     <form method="post" class="form-x" action="__SELF__" name="fileUploadForm" enctype="multipart/form-data">
-    <input type="hidden" name="hos_id" value="<?php echo I('get.hos_id'); ?>">
-    <div class="div_tab" style="display:block;">  
+    <div class="div_tab" style="display:block;">
       <div class="form-group">
         <div class="label">
-          <label>用户姓名：</label>
+          <label>姓名：</label>
         </div>
         <div class="field">
-          <input type="text" class="input w50" value="" name="user_name" data-validate="required:请输入标题" />
+          <input type="text" class="input w50" value="" name="name" data-validate="required:请输入姓名" />
           <span class="tips">*</span>
         </div>
       </div>
       <div class="form-group">
         <div class="label">
-          <label>用户昵称：</label>
+          <label>学号：</label>
         </div>
         <div class="field">
-          <input type="text" class="input w50" value="" name="user_nickname" data-validate="required:请输入标题" />
+          <input type="text" class="input w50" value="" name="studentnum" data-validate="required:请输入学号" />
           <span class="tips">*</span>
         </div>
       </div>
       <div class="form-group">
         <div class="label">
-          <label>所在城市：</label>
-        </div>
-        <div id="city" class="field">
-            <select name="prov" class="prov"></select>   
-            <select name="city" class="city" disabled="disabled"></select>  
-            <select name="dist" class="dist" disabled="disabled"></select>
-            <span class="tips">*</span>
-        </div>
-      </div>
-      <div class="clear"></div>
-      <div class="form-group">
-        <div class="label">
-          <label>年龄：</label>
+          <label>班级：</label>
         </div>
         <div class="field">
-          <input type="text" class="input w50" value="" name="user_age" />
+          <input type="text" class="input w50" value="" name="class" data-validate="required:请输入班级" />
+          <span class="tips">*</span>
         </div>
       </div>
       <div class="form-group">
         <div class="label">
-          <label>用户电话：</label>
+          <label>部门：</label>
         </div>
         <div class="field">
-          <input type="text" class="input w50" value="" name="user_phone" />
+          <input type="text" class="input w50" value="" name="department" data-validate="required:请输入部门" />
+          <span class="tips">*</span>
         </div>
       </div>
       <div class="form-group">
@@ -97,109 +86,90 @@
           <label>性别：</label>
         </div>
         <div class="field">
-          <label><input name="user_sex" type="radio" value="男"/>男</label>
-          <label><input name="user_sex" type="radio" value="女"/>女</label>
+          <label><input name="sex" type="radio" value="男"/>男</label>
+          <label><input name="sex" type="radio" value="女"/>女</label>
           <span class="tips">*</span>
         </div>
       </div>
       <div class="form-group">
         <div class="label">
-          <label>出生日期：</label>
+          <label>电话：</label>
         </div>
         <div class="field">
-          <input type="text" id="user_date" class="input w50" value="" name="user_date" />
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="label">
-          <label>证件类型：</label>
-        </div>
-        <div class="field">
-          <select name="papers_type">
-            <option value="身份证">身份证</option>
-            <option value="港澳通行证">港澳通行证</option>
-            <option value="军人证">军人证</option>
-            <option value="学生证">学生证</option>
-          </select>
+          <input type="text" class="input w50" value="" name="phone" data-validate="required:请输入电话"/>
           <span class="tips">*</span>
         </div>
       </div>
-      <div class="form-group">
+       <div class="form-group">
         <div class="label">
-          <label>证件号码：</label>
+          <label>qq：</label>
         </div>
         <div class="field">
-          <input type="text" class="input w50" value="" name="papers_num" />
+          <input type="text" class="input w50" value="" name="qq" />
         </div>
       </div>
        <div class="form-group">
-        <div class="label">
-          <label>民族：</label>
-        </div>
-        <div class="field">
-          <input type="text" class="input w50" value="" name="nation" />
-        </div>
-      </div>
-       <div class="form-group">
-        <div class="label">
-          <label>职业：</label>
-        </div>
-        <div class="field">
-          <input type="text" class="input w50" value="" name="profession" />
-        </div>
-      </div>
-       <div class="form-group">
-        <div class="label">
-          <label>文化程度：</label>
-        </div>
-        <div class="field">
-          <select name="education">
-            <option value="初中或以下">初中或以下</option>
-            <option value="高中">高中</option>
-            <option selected="selected" value="本科">本科</option>
-            <option value="硕士">硕士</option>
-            <option value="博士或以上">博士或以上</option>
-          </select>
-          <span class="tips"></span>
-        </div>
-      </div>
-       <div class="form-group">
-        <div class="label">
-          <label>婚姻状况：</label>
-        </div>
-        <div class="field">
-          <select name="marriage">
-            <option value="未婚">未婚　</option>
-            <option value="已婚">已婚　</option>
-          </select>
-          <span class="tips"></span>        
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="label">
-          <label>QQ：</label>
-        </div>
-        <div class="field">
-          <input type="text" class="input w50" value="" name="user_qq" />
-        </div>
-      </div>
-      <div class="form-group">
         <div class="label">
           <label>微信：</label>
         </div>
         <div class="field">
-          <input type="text" class="input w50" value="" name="user_weixin" />
+          <input type="text" class="input w50" value="" name="weixin" />
+        </div>
+      </div>
+       <div class="form-group">
+        <div class="label">
+          <label>邮箱：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="" name="email" />
         </div>
       </div>
       <div class="form-group">
         <div class="label">
-          <label>头像：</label>
+          <label>政治面貌：</label>
         </div>
         <div class="field">
-          <input type="file" id="fileUpload" name="user_img" class="input tips" style="display:none;width:25%; float:left;"  value=""  data-toggle="hover" data-place="right" data-image=""  />
-          <div id="filePath" style="float:left;line-height:40px;" ></div>
-          <input type="button" class="button bg-blue margin-left upload" value="+ 浏览上传"  style="float:left;">
-          <div class="tipss">图片格式：jpg，jpeg，gif，png</div>
+          <input type="text" class="input w50" value="" name="political" />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>现在学生会职位：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="" name="nowposition" />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>曾任学生会职位：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="" name="oldposition" />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>曾获荣誉：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="" name="honour" />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>对学生会的看法：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="" name="opinion" />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>工作情况：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="" name="work" />
         </div>
       </div>
       </div>

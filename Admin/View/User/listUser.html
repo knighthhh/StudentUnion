@@ -36,7 +36,7 @@
         <li>
         <a class="layui-btn layui-btn-primary" href="__MODULE__/User/add"><i class="layui-icon">&#xe654;</i>  添加成员</a> </li>
         <li style="margin-left: 500px">
-          <input type="text" placeholder="请输入用户手机号" name="searchValue" class="input" style="width:250px; line-height:17px;display:inline-block" />
+          <input type="text" placeholder="请输入姓名" name="searchValue" class="input" style="width:250px; line-height:17px;display:inline-block" />
           <a class="layui-btn layui-btn" style="cursor:pointer" onclick="$('#listform').submit()"><i class="layui-icon">&#xe615;</i>  搜索</a>	
       </ul>
     </div>
@@ -62,7 +62,7 @@
       <?php endif; ?>
     <?php foreach ($data as $k => $v): ?>
         <tr>
-          <td style="text-align:left; padding-left:20px;"><input type="checkbox" name="user_id[]" value="<?php echo $v['user_id']; ?>" /><?php echo $v['id']; ?></td>
+          <td style="text-align:left; padding-left:20px;"><input type="checkbox" name="id[]" value="<?php echo $v['id']; ?>" /><?php echo $v['id']; ?></td>
           <td><?php echo $v['studentnum']; ?></td>
           <td><?php echo $v['name']; ?></td>
           <td><?php echo $v['department']; ?></td>
@@ -71,7 +71,7 @@
           <td><?php echo $v['phone']; ?></td>
           <td>
           <a class="layui-btn layui-btn-primary layui-btn-mini" style="cursor:pointer" onclick="showDialog(<?php echo $v['id']; ?>)"><i class="layui-icon">&#xe615;</i>　查　看</a>
-          <a class="layui-btn layui-btn layui-btn-mini" href="__MODULE__/User/edit/user_id/<?php echo $v['id']; ?>"><i class="layui-icon">&#xe642;</i>　修　改</a> 
+          <a class="layui-btn layui-btn layui-btn-mini" href="__MODULE__/User/edit/id/<?php echo $v['id']; ?>"><i class="layui-icon">&#xe642;</i>　修　改</a>
           <a class="layui-btn layui-btn-danger layui-btn-mini" style="cursor:pointer" onclick="del(<?php echo $v['id']; ?>)"> <i class="layui-icon">&#xe640;</i>　删　除</a></br>
          
 		  </td>
@@ -167,15 +167,15 @@ function showDialog(id) {
     });	
   };
 //单个删除
-function del(user_id){
+function del(id){
 	if(confirm("您确定要删除吗?")){
-		window.location="__MODULE__/User/delete/user_id/"+user_id;
+		window.location="__MODULE__/User/delete/id/"+id;
 	}
 }
 
 //全选
 $("#checkall").click(function(){ 
-  $("input[name='user_id[]']").each(function(){
+  $("input[name='id[]']").each(function(){
 	  if (this.checked) {
 		  this.checked = false;
 	  }
@@ -189,7 +189,7 @@ $("#checkall").click(function(){
 function DelSelect(){
 	var Checkbox=false;
 	var user_id = new Array();
-	 $("input[name='user_id[]']").each(function(){
+	 $("input[name='id[]']").each(function(){
 	  if (this.checked==true) {		
 		Checkbox=true;	
 	  }
@@ -198,11 +198,11 @@ function DelSelect(){
 		var t=confirm("您确认要删除选中的内容吗？");
 		if (t==false) return false;
 		var i = 0;
-		$("input[name='user_id[]']:checked").each(function(){
+		$("input[name='id[]']:checked").each(function(){
 			user_id[i] = this.value;
 			i++;
 		});
-		window.location="__MODULE__/User/delete/user_id/"+user_id;	
+		window.location="__MODULE__/User/delete/id/"+user_id;
 		//$("#listform").submit();		
 	}
 	else{
