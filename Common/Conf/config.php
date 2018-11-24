@@ -4,11 +4,12 @@ return array(
     'URL_MODEL'           => 1,
 
     /* 数据库设置 */
-    'DB_TYPE'             => 'mysql', // 数据库类型
+    'DB_TYPE'             => 'mysqli', // 数据库类型
     'DB_HOST'             => '127.0.0.1', // 服务器地址
     'DB_NAME'             => 'studentunion', // 数据库名
     'DB_USER'             => 'root', // 用户名
-    'DB_PWD'              => 'root', // 密码
+    'DB_PWD'              => 'K3QYQsIhq6fWu', // 密码
+    //'DB_PWD'              => 'root', // 密码
     'DB_PORT'             => '3306', // 端口
     'DB_PREFIX'           => '', // 数据库表前缀
     'DB_FIELDTYPE_CHECK'  => false, // 是否进行字段类型检查
@@ -50,7 +51,7 @@ return array(
 
     //auth权限管理
     'AUTH_CONFIG'         => array(
-        'AUTH_ON'           => false, //认证开关
+        'AUTH_ON'           => true, //认证开关
         'AUTH_TYPE'         => 1, // 认证方式，1为时时认证；2为登录认证。
         'AUTH_GROUP'        => 'auth_group', //用户组数据表名
         'AUTH_GROUP_ACCESS' => 'auth_group_access', //用户组明细表

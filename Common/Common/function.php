@@ -280,15 +280,7 @@ function getAround($lat, $lon, $raidus)
     return $data;
 }
 
-/**
- * 用户权限验证
- * @Author   王哲
- * @DateTime 2017-07-06
- * @param    string     $name 规则名称
- * @param    int        $uid  用户ID
- * @param    string     $t    返回true后执行的语句
- * @return   string           若验证正确则执行语句，否则返回错误信息
- */
+
 function authCheck($name,$uid,$t){
     $f="";
     $auth = new \Think\auth();

@@ -39,7 +39,6 @@ class UserController extends BaseController
 	{
 		$id = I('get.id');
 		$model = D('Studentinfo');
-		print_r(I('post.'));
 		if (IS_POST) {
             if($info = $model->create(I('post.'),2)){
             	//dump($info);die;

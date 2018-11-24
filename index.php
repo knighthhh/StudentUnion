@@ -4,7 +4,8 @@ define("APP_DEBUG", true);
 //定义前台CSS、JS、img的路径常量
 //define('APP_PATH','/Application/index.php/Admin/index/index');
 
-define("SITE_URL", "http://127.0.0.1:80");
+define("SITE_URL", "http://58.87.121.231:80");
+//define("SITE_URL", "http://127.0.0.1:80");
 
 define("CSS_URL", "/StudentUnion/Public/Home/css/");
 define("IMAGES_URL", SITE_URL . "/StudentUnion/Public/Home/images/");

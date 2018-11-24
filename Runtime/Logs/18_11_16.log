@@ -1355,3 +1355,224 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTrace [ RunTime:0.000050s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
 
+[ 2018-11-16T10:37:44+08:00 ] ::1 /StudentUnion/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000038s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.043734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000028s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000008s ]
+
+[ 2018-11-16T10:37:47+08:00 ] ::1 /StudentUnion/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000045s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000033s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000037s ]
+
+[ 2018-11-16T10:39:39+08:00 ] ::1 /StudentUnion/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000018s ]
+ERR: 系统不支持:mysql
+
+[ 2018-11-16T10:40:23+08:00 ] ::1 /StudentUnion/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000008s ]
+SQL: SHOW COLUMNS FROM `manager` [ RunTime:0.022256s ]
+SQL: SELECT * FROM `manager` WHERE ( `mg_admin` = 'admin' ) LIMIT 1   [ RunTime:0.006260s ]
+
+[ 2018-11-16T10:40:23+08:00 ] ::1 /StudentUnion/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000038s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000012s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000020s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000024s ]
+
+[ 2018-11-16T10:40:24+08:00 ] ::1 /StudentUnion/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000008s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000017s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000021s ]
+
+[ 2018-11-16T10:40:28+08:00 ] ::1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.002844s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.003052s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.003102s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: user_id /Library/WebServer/Documents/StudentUnion/Runtime/Cache/Admin/aaf1c5af857a096af6c29bed2417b3b5.php 第 65 行.
+NOTIC: [8] Undefined index: user_img /Library/WebServer/Documents/StudentUnion/Runtime/Cache/Admin/aaf1c5af857a096af6c29bed2417b3b5.php 第 84 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2018-11-16T10:40:33+08:00 ] ::1 /StudentUnion/index.php/Admin/Auth/listRule
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.001619s ]
+SQL: SELECT * FROM `auth_rule`  [ RunTime:0.002532s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2018-11-16T10:40:35+08:00 ] ::1 /StudentUnion/index.php/Admin/User/listUser
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000022s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000006s ]
+SQL: SHOW COLUMNS FROM `studentinfo` [ RunTime:0.001509s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `studentinfo` LIMIT 1   [ RunTime:0.000210s ]
+SQL: SELECT * FROM `studentinfo` LIMIT 0,5   [ RunTime:0.000334s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: user_id /Library/WebServer/Documents/StudentUnion/Runtime/Cache/Admin/aaf1c5af857a096af6c29bed2417b3b5.php 第 65 行.
+NOTIC: [8] Undefined index: user_img /Library/WebServer/Documents/StudentUnion/Runtime/Cache/Admin/aaf1c5af857a096af6c29bed2417b3b5.php 第 84 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000030s ]
+

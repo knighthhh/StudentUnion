@@ -12,8 +12,8 @@ class BaseController extends Controller
 		}
 		$auth = new \Think\Auth();
 		if(!$auth->check(MODULE_NAME.'/'.CONTROLLER_NAME.'/'.ACTION_NAME,cookie('id'))){
-			//$this->error('没有权限',U('Login/login'));
-			echo "<script>alert('无权限访问');window.stop ? window.stop() : document.execCommand('Stop');javascript:history.back(-1);</script>";
+			$this->error('没有权限');
+			//echo "<script>alert('无权限访问');window.stop ? window.stop() : document.execCommand('Stop');javascript:history.back(-1);</script>";
 
 		}
 	}

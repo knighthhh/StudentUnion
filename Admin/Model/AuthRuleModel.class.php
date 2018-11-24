@@ -4,12 +4,6 @@ use Think\Model;
 
 class AuthRuleModel extends Model{
 
-    /**
-     * 打印树形权限列表
-     * @Author   王哲
-     * @DateTime 2017-07-14
-     * @return   array     返回打印好的数组
-     */
     public function getTree()
     {
         //取出权限数据
@@ -17,16 +11,7 @@ class AuthRuleModel extends Model{
         return $this->_getTree($data);
     }
 
-    /*递归打印*/
-    /**
-     *
-     * @Author   王哲
-     * @DateTime 2017-07-14
-     * @param    array     $data  需要树形打印的数组
-     * @param    integer   $pid   父ID
-     * @param    integer   $level 等级
-     * @return   array            打印完成的数组
-     */
+
     private function _getTree($data, $pid = 0, $level = 0)
     {
         static $ret = array();
